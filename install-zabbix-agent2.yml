@@ -11,4 +11,5 @@
     zabbix_agent_serveractive: 192.168.1.10
     zabbix_agent_host_state: present
     zabbix_agent2_hostmetadata: "linux"
+    
 ...

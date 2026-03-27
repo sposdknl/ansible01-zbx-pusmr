@@ -23,6 +23,5 @@
     ansible.builtin.git:
       repo: 'https://github.com/sposdknl/ansible01-zbx-pusmr.git'
       dest: /opt/repo
-      clone:yes
-      update:yes
+   
 ...
