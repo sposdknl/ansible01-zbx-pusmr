@@ -21,6 +21,8 @@
 
   - name: Cloning Git repository
     ansible.builtin.git:
-      repo: 'https://github.com/sposdknl/zbx7-agent-ansible'
+      repo: 'https://github.com/sposdknl/ansible01-zbx-pusmr.git'
       dest: /opt/repo
+      clone:yes
+      update:yes
 ...
